@@ -1,0 +1,82 @@
+rohan@rohan-VirtualBox:~/OS_HW$ make run
+gcc final.c -o output
+./output
+
+ENTS669C:/home/rohan/OS_HW$ls -l -a
+total 44
+drwxr-xr-x  2 rohan rohan  4096 Sep 21 21:07 .
+drwxr-xr-x 16 rohan rohan  4096 Sep 21 20:51 ..
+-rw-rw-r--  1 rohan rohan  8944 Sep 21 20:37 final.c
+-rw-r--r--  1 rohan rohan    71 Sep 21 20:45 makefile
+-rwxr-xr-x  1 rohan rohan 13424 Sep 21 21:07 output
+-rw-r--r--  1 rohan rohan   468 Sep 21 21:04 README.txt
+
+ENTS669C:/home/rohan/OS_HW$ps | grep bash
+ 1590 pts/0    00:00:00 bash
+
+ENTS669C:/home/rohan/OS_HW$df;pwd;ls;
+Filesystem     1K-blocks    Used Available Use% Mounted on
+udev              995552       0    995552   0% /dev
+tmpfs             203888    1328    202560   1% /run
+/dev/sda1       20509264 6345992  13098416  33% /
+tmpfs            1019428   65060    954368   7% /dev/shm
+tmpfs               5120       4      5116   1% /run/lock
+tmpfs            1019428       0   1019428   0% /sys/fs/cgroup
+/dev/loop0          4224    4224         0 100% /snap/gnome-calculator/406
+/dev/loop1         15104   15104         0 100% /snap/gnome-characters/296
+/dev/loop2         91264   91264         0 100% /snap/core/7713
+/dev/loop3        153600  153600         0 100% /snap/gnome-3-28-1804/71
+/dev/loop4          4352    4352         0 100% /snap/gnome-calculator/501
+/dev/loop5         55808   55808         0 100% /snap/core18/1144
+/dev/loop6         43904   43904         0 100% /snap/gtk-common-themes/1313
+/dev/loop7          1024    1024         0 100% /snap/gnome-logs/73
+/dev/loop8          3840    3840         0 100% /snap/gnome-system-monitor/100
+/dev/loop9         15104   15104         0 100% /snap/gnome-characters/317
+/dev/loop10         1024    1024         0 100% /snap/gnome-logs/61
+/dev/loop11        90624   90624         0 100% /snap/core/7270
+/dev/loop12        55808   55808         0 100% /snap/core18/1066
+/dev/loop13       153600  153600         0 100% /snap/gnome-3-28-1804/67
+tmpfs             203884      36    203848   1% /run/user/1000
+/dev/sr0           75354   75354         0 100% /media/rohan/VBox_GAs_6.0.10
+/home/rohan/OS_HW
+final.c  makefile  output  README.txt
+
+ENTS669C:/home/rohan/OS_HW$df | grep rohan | rev
+01.0.6_sAG_xoBV/nahor/aidem/ %001 0         45357   45357           0rs/ved/
+
+ENTS669C:/home/rohan/OS_HW$df&pwd;ps;ls
+/home/rohan/OS_HW
+Filesystem     1K-blocks    Used Available Use% Mounted on
+udev              995552       0    995552   0% /dev
+tmpfs             203888    1336    202552   1% /run
+/dev/sda1       20509264 6346256  13098152  33% /
+tmpfs            1019428   65276    954152   7% /dev/shm
+tmpfs               5120       4      5116   1% /run/lock
+tmpfs            1019428       0   1019428   0% /sys/fs/cgroup
+/dev/loop0          4224    4224         0 100% /snap/gnome-calculator/406
+/dev/loop1         15104   15104         0 100% /snap/gnome-characters/296
+/dev/loop2         91264   91264         0 100% /snap/core/7713
+/dev/loop3        153600  153600         0 100% /snap/gnome-3-28-1804/71
+/dev/loop4          4352    4352         0 100% /snap/gnome-calculator/501
+/dev/loop5         55808   55808         0 100% /snap/core18/1144
+/dev/loop6         43904   43904         0 100% /snap/gtk-common-themes/1313
+/dev/loop7          1024    1024         0 100% /snap/gnome-logs/73
+/dev/loop8          3840    3840         0 100% /snap/gnome-system-monitor/100
+/dev/loop9         15104   15104         0 100% /snap/gnome-characters/317
+/dev/loop10         1024    1024         0 100% /snap/gnome-logs/61
+/dev/loop11        90624   90624         0 100% /snap/core/7270
+/dev/loop12        55808   55808         0 100% /snap/core18/1066
+/dev/loop13       153600  153600         0 100% /snap/gnome-3-28-1804/67
+tmpfs             203884      44    203840   1% /run/user/1000
+/dev/sr0           75354   75354         0 100% /media/rohan/VBox_GAs_6.0.10
+
+ENTS669C:/home/rohan/OS_HW$final.c  makefile  output  README.txt  sample_outputs.txt
+  PID TTY          TIME CMD
+ 1590 pts/0    00:00:00 bash
+ 2207 pts/0    00:00:00 make
+ 2214 pts/0    00:00:00 output
+ 2348 pts/0    00:00:00 ps
+ 2349 pts/0    00:00:00 ls <defunct>
+exit
+rohan@rohan-VirtualBox:~/OS_HW$ 
+
